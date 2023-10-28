@@ -1,8 +1,8 @@
 :root {
     --body-bg-color: #222d3c;
-    --grid-area-bg-color: #F9FAFC;
-    --text-color-light: #777777;
-    --text-color-dark: #333333;
+    --grid-area-bg-color: #313336;
+    --text-color-light: #ffffff;
+    --text-color-dark: #d1c8c8;
     --modal-overlay-bg-color: 0, 0, 0;
 }
 
@@ -90,7 +90,7 @@ a {
     flex-wrap: wrap;
     padding: 0 1rem;
     border-bottom: 1px solid rgba(119, 119, 119, 0.25);
-    color: #555;
+    color: #ffffff;
     border-top-left-radius: 1rem;
 }
 
@@ -103,8 +103,9 @@ a {
     grid-area: header;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
     background-color: var(--grid-area-bg-color);
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -118,18 +119,6 @@ a {
     background-color: #DADAE3;
     border-radius: 50%;
     z-index: 1000;
-}
-
-.header-search {
-    padding: 2rem 1rem 0 1rem;
-    font-size: 1.250rem;
-    color: #777777;
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
 }
 
 .header-search::before {
@@ -168,6 +157,10 @@ a {
     background-color: #cd0162;
     border-radius: 50%;
     height: 1rem;
+}
+
+.text-white {
+    color: #fff;
 }
 
 .sidenav {
