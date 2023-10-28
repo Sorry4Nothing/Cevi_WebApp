@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="Stylesheet" href="../inc/overview.css">
+    <script src="../inc/overview.js"></script>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="application-title-bar text-bold">
+            <i class="fas fa-arrow-right"></i> #Cevi Tool Name#
+        </div>
+        <header class="header">
+            <i class="fas text-white">#Registered User#</i>
+            <i class="fas text-white">#Points of User#</i>
+        </header>
+
+        <aside class="sidenav">
+            <div class="sidenav-close-container">
+                <i class="fas fa-times sidenav-close-button"></i>
+            </div>
+            <div class="row row--align-v-center row--align-h-center">
+                <ul class="navList">
+                    <li class="navList-heading">
+                        <i class="fas fa-user"></i>
+                        <div class="navList-heading-titleContainer">
+                            <span class="navList-heading-title">Profil</span>
+                        </div>
+                    </li>
+                    <li class="navList-heading">
+                        <i class="fas fa-th"></i>
+                        <div class="navList-heading-titleContainer">
+                            <span class="navList-heading-title">Anwesenheitsübersicht</span>
+                        </div>
+                    </li>
+                    <li class="navList-heading">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <div class="navList-heading-titleContainer">
+                            <span class="navList-heading-title">Admin Panel</span>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="row row--align-v-center row--align-h-center">
+                <ul class="navList navList-bottom">
+                    <li class="navList-heading navList-heading-bottom">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <div class="navList-heading-titleContainer">
+                            <span class="navList-heading-title">sign out</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main">
+            <table class="main-table">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th class="showBoundRight">Angemeldet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-id="1" data-parent="">
+                        <td>Cevi-Event1</td>
+                        <td class="showBoundRightBool">Nein</td>
+                    </tr>
+                    <tr data-id="5" data-parent="">
+                        <td>Cevi-Event2</td>
+                        <td class="showBoundRightBool">Nein</td>
+                    </tr>
+                    <tr data-id="8" data-parent="">
+                        <td>Cevi-Event3</td>
+                        <td class="showBoundRightBool">Nein</td>
+                    </tr>
+                    <tr data-id="14" data-parent="">
+                        <td>Cevi-Event4</td>
+                        <td class="showBoundRightBool">Nein</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <div class="modal">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <span class="modal-title">
+                        Dashboard Settings
+                    </span>
+                <span class="modal-close-button">X</span>
+            </header>
+            <div class="modal-content">
+                <div class="modal-dashboardDetails">
+                    <div class="dashboardDetails-title">
+                        <span class="dashboardDetails-title-icon">Icon</span>
+                        <span class="dashboardDetails-title-name">Dashboard Name</span>
+                    </div>
+                    <div class="dashboardDetails-title-input">
+                        <input type="text" placeholder="Icon" class="dashboardDetails-title-inputIcon">
+                        <input type="text" placeholder="Dashboard Name..." class="dashboardDetails-title-inputName" />
+                    </div>
+                    <div class="dashboardDetails-description">
+                        <span>Dashboard Description</span>
+                    </div>
+                    <div class="dashboardDetails-description-input">
+                        <textarea class="dashboardDetails-description-textarea" rows="5" cols="50" placeholder="Dashboard Description..."></textarea>
+                    </div>
+                    <div class="dashboardDetails-alertNotification">
+                        <span>Secont real-time alert notification to...</span>
+                        <span class="tooltip">
+                                <i class="fas fa-info-circle"></i>
+                                <span class="tooltiptext">Tooltip info</span>
+                        </span>
+                    </div>
+                    <div class="dashboardDetails-lertNotification-input">
+                        <input type="text" placeholder="http://notificationurl.com/" class="dashboardDetails-alertNotification-input" />
+                    </div>
+                    <button class="dashboardDetails-saveBtn text-bold">Save</button>
+                </div>
+                <div class="modal-dashboardActions">
+                    <div class="dashboardActions-option">
+                        <span class="dashboardActions-option-icon">
+                                &nbsp;
+                            </span>
+                        <span class="dashboardActions-option-name text-bold">Move to...</span>
+                    </div>
+                </div>
+                <div class="modal-dashboardActions">
+                    <div class="dashboardActions-option">
+                        <span class="dashboardActions-option-icon">
+                                &nbsp;
+                            </span>
+                        <span class="dashboardActions-option-name text-bold">Delete Dashboard</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
